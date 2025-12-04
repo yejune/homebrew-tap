@@ -1,8 +1,8 @@
 class Tobrew < Formula
   desc "Automated Homebrew tap release tool for CLI projects"
   homepage "https://github.com/yejune/tobrew"
-  url "https://github.com/yejune/tobrew/archive/refs/tags/v0.1.4.tar.gz"
-  sha256 "a59856919907bb3c710b82f728dea515b63a4ce6efb39a3ff7011a943ac46e8c"
+  url "https://github.com/yejune/tobrew/archive/refs/tags/v0.1.5.tar.gz"
+  sha256 "5e9428e858480c4893b135af1aad7518af7a17f5623b83c275d8e22d5f1f4702"
   license "MIT"
   head "https://github.com/yejune/tobrew.git", branch: "main"
 
