@@ -1,8 +1,8 @@
 class CommandBar < Formula
   desc "Command launcher and schedule reminder app for macOS"
   homepage "https://github.com/yejune/command-bar"
-  url "https://github.com/yejune/command-bar/archive/refs/tags/v0.0.6.tar.gz"
-  sha256 "d9dec00f87342a88d3a59e3c354036a4070b7d32d4cc0d5f842174aa3e55de61"
+  url "https://github.com/yejune/command-bar/archive/refs/tags/v0.0.7.tar.gz"
+  sha256 "27ee32949285c2481bcb860a8ae965497408161de1c92fac6d5fd0d7c05b5745"
   license "MIT"
   head "https://github.com/yejune/command-bar.git", branch: "main"
 
