@@ -1,15 +1,16 @@
 class Godo < Formula
   desc "CLI installer for Do - Claude Code project environment"
   homepage "https://github.com/yejune/do"
-  url "https://github.com/yejune/do/archive/refs/tags/v0.0.1.tar.gz"
-  sha256 "2e6b53cfdc9a111bdd0a4b4fb361c624bc242fd9da0e3c40b1be41a04adffc5d"
+  url "https://github.com/yejune/do/archive/refs/tags/v0.0.2.tar.gz"
+  sha256 "afdc6330fc4e3a41952c00591076003394b6d5bbb2aa35d5182cdd1af6637425"
   license "MIT"
   head "https://github.com/yejune/do.git", branch: "main"
 
   depends_on "go" => :build
 
   def install
-        bin.install "godo"
+        system "go", "build", "-ldflags", "-X main.version=#{version}", "-o", "godo", "./cmd/godo/"
+    bin.install "godo"
   end
 
   def test
