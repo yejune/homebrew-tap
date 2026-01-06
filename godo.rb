@@ -1,8 +1,8 @@
 class Godo < Formula
   desc "CLI installer for Do - Claude Code project environment"
   homepage "https://github.com/yejune/do"
-  url "https://github.com/yejune/do/archive/refs/tags/v0.1.18.tar.gz"
-  sha256 "868b6b6c06639501a1e8283d805bb0f1f23397ffd811a7dc07c4b51e56e44f99"
+  url "https://github.com/yejune/do/archive/refs/tags/v0.1.19.tar.gz"
+  sha256 "53c6a08d4ad0697ad7f0090c2eabbca69c831b58ea95401903d74e7fc6ead137"
   license "MIT"
   head "https://github.com/yejune/do.git", branch: "main"
 
