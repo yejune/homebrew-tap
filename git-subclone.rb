@@ -1,8 +1,8 @@
 class GitSubclone < Formula
   desc "Manage nested git repositories with independent push capability"
   homepage "https://github.com/yejune/git-subclone"
-  url "https://github.com/yejune/git-subclone/archive/refs/tags/v0.0.2.tar.gz"
-  sha256 "61b71d37a0a7cd48269a5fd5bac5cf0686343e4e78875f47ae5337630e3461c7"
+  url "https://github.com/yejune/git-subclone/archive/refs/tags/v0.0.3.tar.gz"
+  sha256 "758d12ddd3cca735dd9dd71ea3cf8efefb1f60b43817a7df7c15b929df649ac9"
   license "MIT"
   head "https://github.com/yejune/git-subclone.git", branch: "main"
 
