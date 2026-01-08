@@ -1,8 +1,8 @@
 class GitSub < Formula
   desc "Manage nested git repositories with independent push capability"
   homepage "https://github.com/yejune/git-sub"
-  url "https://github.com/yejune/git-sub/archive/refs/tags/v0.2.2.tar.gz"
-  sha256 "c67f92d988dce08c31ba53463e8a7aa7ce299d96c153a591b1b40951c2591d0e"
+  url "https://github.com/yejune/git-sub/archive/refs/tags/v0.2.3.tar.gz"
+  sha256 "28b2c39023b393bb0c04e092318bffc04983ba46af3f15e2bee79f70df32b18a"
   license "MIT"
   head "https://github.com/yejune/git-sub.git", branch: "main"
 
