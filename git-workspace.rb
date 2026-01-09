@@ -2,7 +2,7 @@ class GitWorkspace < Formula
   desc "Manage nested git repositories with independent push capability"
   homepage "https://github.com/yejune/git-workspace"
   url "https://github.com/yejune/git-workspace/archive/refs/tags/v0.2.6.tar.gz"
-  sha256 "2f092ea0321d9a9e30d553c12f9f7697889f22dffa46bcab260615f1ca4fa63c"
+  sha256 "012316eb7234b05b45710ecf45bc96cf9870bc027007f54d6235dc48c1dfc0c1"
   license "MIT"
   head "https://github.com/yejune/git-workspace.git", branch: "main"
 
