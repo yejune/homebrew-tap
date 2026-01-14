@@ -1,8 +1,8 @@
 class GitMultirepo < Formula
   desc "Multi-repository management tool for nested git repositories with independent push capability"
   homepage "https://github.com/yejune/git-multirepo"
-  url "https://github.com/yejune/git-multirepo/archive/refs/tags/v0.2.22.tar.gz"
-  sha256 "fafd5cd571125112cfe5385ebeff14d631927b115298eb520e09bb5a4eda3097"
+  url "https://github.com/yejune/git-multirepo/archive/refs/tags/v0.2.23.tar.gz"
+  sha256 "b1846a08bdd024b71dbcd951b852f31a8f45697b9b5dd21a987f46a24192a3d6"
   license "MIT"
   head "https://github.com/yejune/git-multirepo.git", branch: "main"
 
