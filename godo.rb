@@ -1,16 +1,16 @@
 class Godo < Formula
   desc "CLI installer for Do - Claude Code project environment"
   homepage "https://github.com/yejune/do-focus"
-  url "https://github.com/yejune/do-focus/archive/refs/tags/v0.1.53.tar.gz"
-  sha256 "4c356638895fefbb75015ba8bd424c42d60b0cf83bebf2a6880c5d4e0fc8d08d"
+  url "https://github.com/yejune/do-focus/archive/refs/tags/v0.1.54.tar.gz"
+  sha256 "3dce07a1061dcea0cc6085145006e4fcb42303fa6dda3062f8aff66769f5bdd8"
   license "MIT"
   head "https://github.com/yejune/do-focus.git", branch: "main"
 
   depends_on "go" => :build
 
   def install
-        system "go", "build", "-ldflags", "-X main.version=#{version}", "-o", "godo", "./cmd/godo/"
-    bin.install "godo"
+        bin.install "godo"
+    bin.install "do-worker"
   end
 
   def test
