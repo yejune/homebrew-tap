@@ -1,8 +1,8 @@
 class Tami < Formula
   desc "Terminal-first macOS file navigator with tabs and an embedded terminal"
   homepage "https://github.com/yejune/tami"
-  url "https://github.com/yejune/tami/archive/refs/tags/v0.0.1.tar.gz"
-  sha256 "20fb840d9e7067b42613f4235e7fb79a7145b1a4d624d6ce3357801c71bde81e"
+  url "https://github.com/yejune/tami/archive/refs/tags/v0.0.2.tar.gz"
+  sha256 "202b85c37be3dcde5add6233f2c437357ea0687f996706d2ca04d21d3c6a8f96"
   license "UNLICENSED"
   head "https://github.com/yejune/tami.git", branch: "main"
 
