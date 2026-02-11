@@ -1,8 +1,8 @@
 class Godo < Formula
   desc "CLI installer for Do - Claude Code project environment"
   homepage "https://github.com/yejune/do-focus"
-  url "https://github.com/yejune/do-focus/archive/refs/tags/v0.1.103.tar.gz"
-  sha256 "2b4788fa0b347e8bb7cb0232286861c6cb0e235ba45f5e2a626005469e4c85c9"
+  url "https://github.com/yejune/do-focus/archive/refs/tags/v0.1.104.tar.gz"
+  sha256 "2db3ca4403a5b53fa2f9c179500f828f719584def84da87dbe8b2eeb6fbce4a0"
   license "MIT"
   head "https://github.com/yejune/do-focus.git", branch: "main"
 
