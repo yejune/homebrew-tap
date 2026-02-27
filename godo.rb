@@ -1,8 +1,8 @@
 class Godo < Formula
   desc "Do framework CLI — extract, assemble, and manage .claude/ personas"
   homepage "https://github.com/yejune/godo"
-  url "https://github.com/yejune/godo/archive/refs/tags/v0.3.25.tar.gz"
-  sha256 "021e3074de0b976af7f1e0ea5f4ca14273462799471fd730edbabd4f0e7ba2a5"
+  url "https://github.com/yejune/godo/archive/refs/tags/v0.3.26.tar.gz"
+  sha256 "10ce26da55474b1938fe1de1d74b9ba36b83e1af6f5924013fd82718e283065d"
   license "MIT"
   head "https://github.com/yejune/godo.git", branch: "main"
 
